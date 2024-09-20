@@ -21,23 +21,29 @@ def subtract_lists(A: List[int], B: List[int]) -> List[int]:
 ### Examples:
 ### 1.
 ```
-Input: A = [1, 0, 2], B = [2, 2, 5]
+Input:
+A = [1, 0, 2]
+B = [2, 2, 5]
 Output: [-1, 2, 3]
 ```
 
 ```
-A represents 102, B represents 225.
+A represents 102
+B represents 225
 102 - 225 = -123, so the result is [-1, 2, 3].
 ```
 
 ### 2.
 ```
-Input: A = [9, 0, 0, 0], B = [1]
+Input:
+A = [9, 0, 0, 0]
+B = [1]
 Output: [8, 9, 9, 9]
 ```
 ```
 Explanation: 
-A represents 9000, B represents 1.
+A represents 9000
+B represents 1
 9000 - 1 = 8999, so the result is [8, 9, 9, 9].
 ```
 
